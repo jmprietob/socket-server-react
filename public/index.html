@@ -51,16 +51,6 @@
         socket.on('mensaje-from-server', (data)=>{
             mensajes.innerHTML += `<li>${data.texto}</li>`
         })
-        // socket.on('mensaje-bienvenida', (data) => {
-        //     console.log(data);
-        // })
-
-        // setTimeout(() => {
-        //     socket.emit('mensaje-cliente', {
-        //         msg: 'cliente',
-        //         nombre: 'jose'
-        //     });
-        // }, 2000);
     </script>
 </body>
 
